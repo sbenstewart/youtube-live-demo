@@ -10,15 +10,13 @@
 <body>
   <canvas></canvas>
     <div class="container">
-      <div class="plyr__video-embed" id="player">
-        <iframe
-          src="https://www.youtube.com/embed/nA9UZF-SZoQ?origin=https://plyr.io&amp;iv_load_policy=3&amp;modestbranding=1&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;enablejsapi=1"
-          allowfullscreen
-          allowtransparency
-          class="embed"
-          allow="autoplay"
-        ></iframe>
-      </div>
+      <iframe  
+        src="https://www.youtube.com/embed/nA9UZF-SZoQ" 
+        scrolling="no"
+        class="embed"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+      </iframe>
     </div>
     <footer>
       <a href="https://teamenigma.netlify.app/">
@@ -26,6 +24,5 @@
       </a>
     </footer>
   <script  src="script.js"></script>
-  <script src="https://cdn.plyr.io/3.6.2/plyr.js"></script>
 </body>
 </html>
